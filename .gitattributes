@@ -1,0 +1,6 @@
+*.v linguist-detectable=true
+*.cmd linguist-detectable=false
+*.html linguist-detectable=false
+*.xml linguist-detectable=false
+*.xsl linguist-detectable=false
+*.tcl linguist-detectable=false
