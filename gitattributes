@@ -1,3 +1,0 @@
-* linguist-detectable
-*.v linguist-detectable=true
-*.html linguist-detectable=false
