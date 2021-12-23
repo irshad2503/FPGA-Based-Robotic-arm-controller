@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o E:\FPGA\led_interface\//Untitled -s 512 -u 0000 E:/FPGA/led_interface/led_interface.bit -spi 
+
+PROM E:\FPGA\led_interface\Untitled.prm map: Fri Sep 04 20:56:29 2020
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          512K
+PROM start    0000:0000
+PROM end      0007:ffff
+PROM checksum 02cf0c27
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0005:327b     Sep 03 18:19:17 2020 E:/FPGA/led_interface/led_interface.bit

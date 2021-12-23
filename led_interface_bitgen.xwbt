@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\FPGA\led_interface\led_interface.ncd
+OUTFILE=E:\FPGA\led_interface\led_interface.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5ft256
+WORKINGDIR=E:\FPGA\led_interface
+LICENSE=WebPack
+USER_INFO=__0_0_0

@@ -1,0 +1,30 @@
+xst -intstyle ise -ifn "E:/FPGA/led_interface/led_interface.xst" -ofn "E:/FPGA/led_interface/led_interface.syr" 
+xst -intstyle ise -ifn "E:/FPGA/led_interface/led_interface.xst" -ofn "E:/FPGA/led_interface/led_interface.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc led_interface_constraint.ucf -p xc6slx9-tqg144-3 led_interface.ngc led_interface.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_interface_map.ncd led_interface.ngd led_interface.pcf 
+par -w -intstyle ise -ol high -mt off led_interface_map.ncd led_interface.ncd led_interface.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml led_interface.twx led_interface.ncd -o led_interface.twr led_interface.pcf -ucf led_interface_constraint.ucf 
+bitgen -intstyle ise -f led_interface.ut led_interface.ncd 
+xst -intstyle ise -ifn "E:/FPGA/led_interface/led_interface.xst" -ofn "E:/FPGA/led_interface/led_interface.syr" 
+xst -intstyle ise -ifn "E:/FPGA/led_interface/led_interface.xst" -ofn "E:/FPGA/led_interface/led_interface.syr" 
+xst -intstyle ise -ifn "E:/FPGA/led_interface/led_interface.xst" -ofn "E:/FPGA/led_interface/led_interface.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc led_interface_constraint.ucf -p xc6slx9-tqg144-2 led_interface.ngc led_interface.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_interface_map.ncd led_interface.ngd led_interface.pcf 
+par -w -intstyle ise -ol high -mt off led_interface_map.ncd led_interface.ncd led_interface.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_interface.twx led_interface.ncd -o led_interface.twr led_interface.pcf -ucf led_interface_constraint.ucf 
+bitgen -intstyle ise -f led_interface.ut led_interface.ncd 
+bitgen -intstyle ise -f led_interface.ut led_interface.ncd 
+bitgen -intstyle ise -f led_interface.ut led_interface.ncd 
+bitgen -intstyle ise -f led_interface.ut led_interface.ncd 
+xst -intstyle ise -ifn "E:/FPGA/led_interface/led_interface.xst" -ofn "E:/FPGA/led_interface/led_interface.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc led_interface_constraint.ucf -p xc3s500e-ft256-4 led_interface.ngc led_interface.ngd  
+map -intstyle ise -p xc3s500e-ft256-4 -cm area -ir off -pr off -c 100 -o led_interface_map.ncd led_interface.ngd led_interface.pcf 
+par -w -intstyle ise -ol high -t 1 led_interface_map.ncd led_interface.ncd led_interface.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml led_interface.twx led_interface.ncd -o led_interface.twr led_interface.pcf -ucf led_interface_constraint.ucf 
+bitgen -intstyle ise -f led_interface.ut led_interface.ncd 
+xst -intstyle ise -ifn "E:/FPGA/led_interface/led_interface.xst" -ofn "E:/FPGA/led_interface/led_interface.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc led_interface_constraint.ucf -p xc3s500e-ft256-5 led_interface.ngc led_interface.ngd  
+map -intstyle ise -p xc3s500e-ft256-5 -cm area -ir off -pr off -c 100 -o led_interface_map.ncd led_interface.ngd led_interface.pcf 
+par -w -intstyle ise -ol high -t 1 led_interface_map.ncd led_interface.ncd led_interface.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml led_interface.twx led_interface.ncd -o led_interface.twr led_interface.pcf -ucf led_interface_constraint.ucf 
+bitgen -intstyle ise -f led_interface.ut led_interface.ncd 

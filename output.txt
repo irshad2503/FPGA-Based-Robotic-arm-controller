@@ -1,0 +1,16 @@
+Storage Target: SPI Flash MultiBoot FPGA
+Storage Family: Spartan6
+4M
+FF
+Untitled2
+E:/FPGA/uart_reciever
+
+MCS
+1
+No
+
+
+No
+erface\
+
+MCS

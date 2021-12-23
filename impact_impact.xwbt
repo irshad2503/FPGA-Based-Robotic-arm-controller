@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=E:\FPGA\led_interface\impact.xsl
+OUTFILE=E:\FPGA\led_interface\impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=E:\FPGA\led_interface
+LICENSE=iMPACT
+USER_INFO=iMPACT
